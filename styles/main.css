@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+
+header{
+
+
+
+padding-top: 70px;
+padding-bottom: 10px;
+text-align: center;
+color: white;
+
+}
+
+body {
+
+  background-color: #1A1A1A;
+}
+
+h1 {
+
+font-family: 'Skranji';
+font-size: 60px;
+text-align: center;
+padding: 10px;
+
+}
+
+#cannot{
+
+background-color:#1A1A1A;
+color: #1A1A1A;
+
+}
+
+#cannot a{
+
+background-color:#1A1A1A;
+color: #1A1A1A;
+
+}
+
+nav {
+
+
+display: inline-block;
+width: 100%;
+text-align: center;
+margin-top: 50px;
+
+
+}
+
+nav li{
+
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 12px;
+
+  background-color: #66c3d3;
+  display:inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.5s;
+
+}
+
+
+
+
+
+
+nav li a{
+
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-family: 'Skranji';
+display: block;
+padding: 30px 50px;
+text-align: center;
+
+
+
+}
+
+nav li:hover{
+width: 100px;
+background-color: #004b68;
+color: white;
+
+}
+.tooltip {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 1300px;
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 5px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.retry {
+    font-family: 'Helvetica';
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 1300px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.retry a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+
+.retry a:hover{
+
+color: rgb(37, 249, 242);
+text-decoration: none;
+
+
+}
+
+  video {
+
+      width: 650px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      display: block
+
+  }
