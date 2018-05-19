@@ -32,12 +32,6 @@ margin-top: 100px;
 
 }
 
-#newtry{
-
-
-
-
-}
 
 .inner-container li{
   height: 100px;
@@ -110,9 +104,21 @@ padding-top: 40px;
     margin: 10px;
     padding: 5px 5px;
     z-index:10;
+}
 
 
 
+.construction img{
+transition: 1s;
+width: 1150px;
+height: auto;
+
+
+
+}
+.construction img:hover{
+
+padding-top: 50px;
 
 }
 video {
@@ -220,6 +226,8 @@ text-decoration: none;
 
 
 }
+
+
 /*video {
     width: 650px;
     height: auto;

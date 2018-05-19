@@ -13,18 +13,19 @@
       <h1>Cannibales et Missionnaires</h1>
 
     </header>
-
-<nav>
-  <ul>
-    <li id="cannot"><a href="losing.html">2 Missionnaires</a></li>
-    <li id="cannot"><a href="gchoice/choice1.html">2 Cannibales</a></li>
-    <li id="cannot"><a href="rightpath/step1.html">1 Missionnaire & 1 Cannibale</a></li>
-    <li id="cannot"><a href="losing.html">1 Missionnaire</a>
-</li>
-    <li id="cannot"> <a href="losing.html">1 Cannibale</a>
-</li>
-  </ul>
-</nav>
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="video-overlay">
+            <nav>
+        <ul>
+           <li id="cannot"><a href="losing.html"><img src="styles/images/2M.png" alt=""></a></li>
+           <li id="cannot"><a href="alternate/MMMC-CCD.html"><img src="styles/images/2C.png" alt=""></a></li>
+           <li id="cannot"><a href="rightpath/step1.html"><img src="styles/images/1M1C.png" alt=""></a></li>
+           <li id="cannot"><a href="losing.html"><img src="styles/images/1M.png" alt=""></a></li>
+           <li id="cannot"><a href="rive-gauche.html"><img src="styles/images/1C.png" alt=""></a></li>
+         </ul>
+       </nav>
+     </div>
 
 
 <video playsinline autoplay poster="styles/images/game.png" id="myvideo">
@@ -32,6 +33,8 @@
   <source src="styles/media/startvid.mp4" type="video/mp4">
 
 </video>
+</div>
+</div>
 <script>
       var vid = document.getElementById("myvideo");
       vid.onended = function() {
